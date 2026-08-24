@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/InterRegular.woff2');
+  font-display: swap;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.panel {
+  display: inline-flex;
+  gap: 12px;
+  border: solid 1px white;
+  background-color: white;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.panel btn {
+  background-color: blue;
+  font-size: 16px;
+  color: white;
+  padding: 12px 20px;
+  border:  solid 1px white;
+  border-radius: 16px;
+}
